@@ -1,0 +1,42 @@
+{
+  "name": "cypress-avancado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test": "cypress run",
+    "start": "cypress open"
+  },
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "context",
+      "cy",
+      "Cypress",
+      "describe",
+      "it"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmatheusm/cypress-avancado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmatheusm/cypress-avancado/issues"
+  },
+  "homepage": "https://github.com/fmatheusm/cypress-avancado#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.3",
+    "cypress-localstorage-commands": "^2.2.7",
+    "faker": "^5.5.3",
+    "standardjs": "^1.0.0-alpha"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
