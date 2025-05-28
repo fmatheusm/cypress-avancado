@@ -1,4 +1,6 @@
-const { defineConfig } = require("cypress");
+///<reference types='cypress'/>
+
+const { defineConfig } = require('cypress');
 require('dotenv').config();
 /**
  * @type {Cypress.PluginConfig}
